@@ -1,0 +1,219 @@
+﻿@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/reset.css);
+@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/960.css);
+@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/text.css);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+a {
+	text-decoration: underline;
+	color: #CF1302;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	background: #E0E0E0;
+	font:1.5em/1.75 Tahoma, sans-serif;
+	color: #808080;
+}
+h1,h2,h3,h4 {
+	font-family: Oswald, sans-serif;
+}
+h1{
+	font-size: 3em;
+    line-height: 45px;
+}
+.rh1{
+  color: #C55951;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.5em;
+}
+p {
+	margin-bottom: 1.5em;
+}
+header{
+	margin-top:35px;
+	color: #717171;
+	border-top: solid 1px #F7F1E8;
+	background: #E6E6E6 ;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+header h1{
+	margin-top:30px;
+	margin-left: 10px;
+	text-shadow: 0px 2px 1px #3F372B;
+}
+header h2{
+  
+  margin-top:22px;
+  margin-left: -70px;
+  color: #C55951;
+  font:0.7em Sofadi One;
+  line-height: 5px;
+}
+.redline{
+  margin-left: -5px;
+}
+.grayline{
+  margin-left: -5px;
+  color: #717171;
+  }
+.grayh2{
+  color: #717171;
+}
+.information{
+  margin-top:20px;
+  margin-left:-15px;
+  line-height:15px;
+  color: #717171;
+}
+#contact{
+  margin-top: 10px;
+  margin-left:3px;
+}
+footer div{
+	width:600px;
+	margin:30px auto 10px auto;
+}
+nav {
+	border-top: solid 2px #B9A1C4;
+	border-bottom: solid 2px #B9A1C4;
+	height: 55px;
+	background: #9DA1C4 ;
+    box-shadow: rgb(189, 189, 189) 0px 1px 5px 0px;
+}
+nav ul {
+	margin-top: 3px;
+    margin-left: 10px;
+	list-style: none;
+    
+}
+nav ul li {	
+	display: inline-block;
+    font-family: Candal;
+}
+nav a {
+	padding: 10px;
+	color: #FFFFFF;
+	text-transform: lowercase;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+nav a:hover {
+	background-color:rgba(255,255,255,.5);
+}
+
+article{
+	padding: 45px 35px 80px 35px;
+	box-sizing: border-box;
+}
+
+.aboutme,
+.skill
+{
+  font: 1.5em Oswald, sans-serif;
+  color:000000;
+}
+  
+#aboutmecontent,
+#educationcontent,
+#skillcontent{
+  margin-top:-34px;
+  margin-left:-5px;
+  background:#C9BC9C;
+  border-radius:0.5em;
+  box-shadow: rgb(189, 189, 189) 0px 4px 5px 2px;
+}
+
+#skillcontent{
+  height:585px;
+}
+p{
+  
+  margin-left:50px;
+  font:0.5em Oswald;
+  color:5B7171;
+ 
+}
+.imgs{
+  float:left;
+  margin-left: 20px;
+  margin-top: -5px;
+  margin-right: 20px;
+}
+.educationlist{
+  margin-top: -70px;
+  margin-left: 50px;
+  font:0.5em Oswald;
+  color:5B7171;
+ 
+}
+.skill1{
+  margin-top: 50px;
+  background: #99C97F;
+}
+.skill2,
+.skill3{
+    margin-top: 20px;
+  background: #99C97F;
+}
+.skill1list,
+.skill2list,
+.skill3list{
+  margin-top: -10px;
+  margin-left: 12px;
+  font:0.5em Oswald;
+  color:5B7171;
+}
+
+#page{
+	color: #5B5B5B;
+	border-top: solid 1px #FFFFFF;
+	background: #FFFFFF url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/images/img03.gif) repeat-x top left;
+	border-bottom: solid 5px #D0D0D0;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+aside{
+	padding: 45px 35px 15px 10px;
+	box-sizing: border-box;
+}
+
+#experience{
+  padding: 0px 50px 80px 35px;
+  box-sizing: border-box;
+}
+
+#club,
+#interest,
+#activity{
+  
+  
+}
+.clubcontent,
+.activitycontent,
+.interestcontent{
+  width:200px;
+  height:400px;
+  margin-top:-34px;
+  margin-left:40px;
+  background:#C9BC9C;
+  border-radius:0.5em;
+  box-shadow: rgb(189, 189, 189) 0px 0px 5px 2px;
+}
+.words{
+  margin-left:10px;
+  margin-top:10px;
+  padding: 5px 20px 20px 20px;
+  font:0.5em Oswald;
+  color:5B7171;
+}
+
